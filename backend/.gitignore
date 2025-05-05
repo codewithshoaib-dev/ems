@@ -1,0 +1,45 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django specific files
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+
+# Migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Test output
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+celerybeat-schedule
+
+# Local settings
+local_settings.py

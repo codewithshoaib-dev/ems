@@ -1,0 +1,123 @@
+/* General Container */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    display: none; /* Hide sidebar by default */
+  }
+  
+  .sidebar-content {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-link {
+    color: #1d4ed8;
+    text-decoration: none;
+  }
+  
+  .sidebar-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  .main-content {
+    display: grid;
+    gap: 24px;
+  }
+  
+  /* Stat Cards */
+  .stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .card-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text-green {
+    color: #16a34a;
+  }
+  
+  .text-blue {
+    color: #2563eb;
+  }
+  
+  .text-yellow {
+    color: #facc15;
+  }
+  
+  .text-red {
+    color: #dc2626;
+  }
+  
+  /* Charts */
+  .charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+  }
+  
+  .chart {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+  }
+  
+  /* Skeleton */
+  .skeleton {
+    background-color: #e5e7eb;
+    border-radius: 8px;
+  }
+  
+  .skeleton-card {
+    height: 96px;
+    width: 100%;
+  }
+  
+  .skeleton-chart {
+    height: 300px;
+    width: 100%;
+  }
