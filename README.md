@@ -40,31 +40,27 @@ QR Codes: qrcode Python package
 Quick Start
 Backend
 
-bash
-Copy
-Edit
+
 cd backend
 python -m venv env
-source env/bin/activate
+source env/Scripts/activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
 Create a .env file in backend/:
 
-ini
-Copy
-Edit
 SECRET_KEY=your_secret_key
 DEBUG=True
 ALLOWED_HOSTS=127.0.0.1,localhost
+
 Frontend
 
-bash
-Copy
-Edit
+
 cd frontend
 npm install
 npm run dev
+
 Known Limitations
 Not production-ready
 
